@@ -1,6 +1,6 @@
 {
   "name": "@runtzswap-libs/uikit",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Set of UI components for runtz projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -52,6 +52,7 @@
     "@types/styled-system": "^5.1.10",
     "lodash": "^4.17.20",
     "react-popper": "^2.2.5",
+    "react-transition-group": "^4.4.2",
     "styled-system": "^5.1.5"
   },
   "publishConfig": {
