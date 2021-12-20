@@ -152,7 +152,7 @@ export const socials = [
   {
     label: "Github",
     icon: "Github",
-    href: "https://github.com/runtzswap/",
+    href: "https://github.com/rvegajr/",
   },
   {
     label: "Discord",

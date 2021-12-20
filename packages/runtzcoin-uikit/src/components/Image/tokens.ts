@@ -1,5 +1,5 @@
 /**
- * @see https://github.com/runtzswap/runtz-frontend/blob/develop/src/config/constants/tokens.ts
+ * @see https://github.com/rvegajr/runtz-frontend/blob/develop/src/config/constants/tokens.ts
  */
 const tokens = {
   cake: {

@@ -6,7 +6,7 @@
   "files": [
     "lib"
   ],
-  "repository": "https://github.com/runtzswap/runtz-toolkit/tree/master/packages/eslint-config-runtz",
+  "repository": "https://github.com/rvegajr/runtz-toolkit/tree/master/packages/eslint-config-runtz",
   "license": "MIT",
   "author": "RabbitDoge",
   "private": false,

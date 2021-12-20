@@ -4,7 +4,7 @@
     "rootDir": "./",
     "lib": ["ES2020"],
     "skipLibCheck": true,
-    "target": "ES5",
+    "target": "ES6",
     "esModuleInterop": true,
     "resolveJsonModule": true
   },
