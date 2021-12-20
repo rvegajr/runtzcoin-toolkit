@@ -1,3 +1,4 @@
+/* eslint-disable react/require-default-props */
 import React, { useState } from "react";
 import styled, { useTheme } from "styled-components";
 import getExternalLinkProps from "../../util/getExternalLinkProps";

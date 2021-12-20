@@ -1,171 +1,185 @@
-import { noop } from "lodash";
-import { DropdownMenuItems, DropdownMenuItemType } from "../../components/DropdownMenu/types";
-import { MenuItemsType } from "../../components/MenuItems/types";
-import { LinkStatus } from "./types";
-
-export const status = {
-  LIVE: <LinkStatus>{
-    text: "LIVE",
-    color: "failure",
+export const links = [
+  {
+    label: "Home",
+    icon: "HomeIcon",
+    href: "/",
   },
-  SOON: <LinkStatus>{
-    text: "SOON",
-    color: "warning",
-  },
-  NEW: <LinkStatus>{
-    text: "NEW",
-    color: "success",
-  },
-};
-
-export const links: MenuItemsType[] = [
   {
     label: "Trade",
-    href: "/swap",
-    icon: "Swap",
+    icon: "TradeIcon",
     items: [
       {
         label: "Exchange",
-        href: "https://exchange.runtzswap.finance",
+        href: "https://exchange.pancakeswap.finance",
       },
       {
         label: "Liquidity",
-        href: "https://exchange.runtzswap.finance/#/pool",
-      },
-      {
-        label: "Charts",
-        href: "https://exchange.runtzswap.finance/#/charts",
-        iconName: "Chart",
-        isMobileOnly: true,
+        href: "https://exchange.pancakeswap.finance/#/pool",
       },
     ],
   },
   {
-    label: "Earn",
-    href: "/",
-    icon: "Earn",
+    label: "Farms",
+    icon: "FarmIcon",
+    href: "/farms",
+  },
+  {
+    label: "Pools",
+    icon: "PoolIcon",
+    href: "/syrup",
+  },
+  {
+    label: "Lottery",
+    icon: "TicketIcon",
+    href: "/lottery",
+  },
+  {
+    label: "NFT",
+    icon: "NftIcon",
+    href: "/nft",
+  },
+  {
+    label: "Profile & Teams",
+    icon: "GroupsIcon",
     items: [
       {
-        label: "Earn",
+        label: "Leaderboard",
         href: "/",
       },
       {
-        label: "Yield Farms",
+        label: "YourProfile",
         href: "/",
       },
+    ],
+    calloutClass: "rainbow",
+  },
+  {
+    label: "Info",
+    icon: "InfoIcon",
+    items: [
       {
-        label: "Syrup pools",
-        href: "/",
+        label: "Overview",
+        href: "https://pancakeswap.info",
+      },
+      {
+        label: "Tokens",
+        href: "https://pancakeswap.info/tokens",
+      },
+      {
+        label: "Pairs",
+        href: "https://pancakeswap.info/pairs",
+      },
+      {
+        label: "Accounts",
+        href: "https://pancakeswap.info/accounts",
       },
     ],
   },
   {
-    label: "Win",
-    href: "/",
-    icon: "Trophy",
+    label: "IFO",
+    icon: "IfoIcon",
     items: [
       {
-        label: "Win",
-        href: "/",
+        label: "Next",
+        href: "/ifo",
       },
       {
-        label: "Predictions",
-        href: "/",
-        status: status.LIVE,
-      },
-      {
-        label: "Lottery",
-        href: "/",
+        label: "History",
+        href: "/ifo/history",
       },
     ],
   },
   {
-    label: "",
-    href: "/",
-    icon: "More",
+    label: "More",
+    icon: "MoreIcon",
     items: [
       {
-        label: "Info & Analytics",
-        href: "/",
+        label: "Voting",
+        href: "https://voting.pancakeswap.finance",
       },
       {
-        label: "IFO Token Sales",
-        href: "/",
-        status: status.SOON,
+        label: "Github",
+        href: "https://github.com/pancakeswap",
       },
       {
-        type: DropdownMenuItemType.DIVIDER,
-      },
-      {
-        label: "NFT Collectibles",
-        href: "/",
-      },
-      {
-        label: "Team Leaderboard",
-        href: "/",
-      },
-      {
-        type: DropdownMenuItemType.DIVIDER,
+        label: "Docs",
+        href: "https://docs.pancakeswap.finance",
       },
       {
         label: "Blog",
-        href: "/",
-      },
-      {
-        label: "Docs & Guides",
-        href: "/",
-        type: DropdownMenuItemType.EXTERNAL_LINK,
+        href: "https://pancakeswap.medium.com",
       },
     ],
   },
 ];
 
-export const userMenulinks: DropdownMenuItems[] = [
+export const socials = [
   {
-    label: "Wallet",
-    onClick: noop,
-    type: DropdownMenuItemType.BUTTON,
+    label: "Telegram",
+    icon: "TelegramIcon",
+    items: [
+      {
+        label: "English",
+        href: "https://t.me/pancakeswap",
+      },
+      {
+        label: "Bahasa Indonesia",
+        href: "https://t.me/PancakeSwapIndonesia",
+      },
+      {
+        label: "中文",
+        href: "https://t.me/PancakeSwap_CN",
+      },
+      {
+        label: "Tiếng Việt",
+        href: "https://t.me/PancakeSwapVN",
+      },
+      {
+        label: "Italiano",
+        href: "https://t.me/pancakeswap_ita",
+      },
+      {
+        label: "русский",
+        href: "https://t.me/pancakeswap_ru",
+      },
+      {
+        label: "Türkiye",
+        href: "https://t.me/pancakeswapturkiye",
+      },
+      {
+        label: "Português",
+        href: "https://t.me/PancakeSwapPortuguese",
+      },
+      {
+        label: "Español",
+        href: "https://t.me/PancakeswapEs",
+      },
+      {
+        label: "日本語",
+        href: "https://t.me/pancakeswapjp",
+      },
+      {
+        label: "Français",
+        href: "https://t.me/pancakeswapfr",
+      },
+      {
+        label: "Announcements",
+        href: "https://t.me/PancakeSwapAnn",
+      },
+      {
+        label: "Whale Alert",
+        href: "https://t.me/PancakeSwapWhales",
+      },
+    ],
   },
   {
-    label: "Transactions",
-    type: DropdownMenuItemType.BUTTON,
-  },
-  {
-    type: DropdownMenuItemType.DIVIDER,
-  },
-  {
-    type: DropdownMenuItemType.BUTTON,
-    disabled: true,
-    label: "Dashboard",
-  },
-  {
-    type: DropdownMenuItemType.BUTTON,
-    disabled: true,
-    label: "Portfolio",
-  },
-  {
-    label: "Profile",
-    href: "/profile",
-  },
-  {
-    type: DropdownMenuItemType.EXTERNAL_LINK,
-    href: "https://runtzswap.finance",
-    label: "Link",
-  },
-  {
-    type: DropdownMenuItemType.DIVIDER,
-  },
-  {
-    type: DropdownMenuItemType.BUTTON,
-    onClick: noop,
-    label: "Disconnect",
+    label: "Twitter",
+    icon: "TwitterIcon",
+    href: "https://twitter.com/pancakeswap",
   },
 ];
 
-export const MENU_HEIGHT = 56;
+export const MENU_HEIGHT = 64;
 export const MENU_ENTRY_HEIGHT = 48;
-export const MOBILE_MENU_HEIGHT = 44;
 export const SIDEBAR_WIDTH_FULL = 240;
 export const SIDEBAR_WIDTH_REDUCED = 56;
-export const TOP_BANNER_HEIGHT = 70;
-export const TOP_BANNER_HEIGHT_MOBILE = 84;

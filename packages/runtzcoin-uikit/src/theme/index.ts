@@ -4,7 +4,7 @@ import { RuntzToggleTheme } from "../components/RuntzToggle/types";
 import { RadioTheme } from "../components/Radio/types";
 import { ToggleTheme } from "../components/Toggle/theme";
 import { TooltipTheme } from "../components/Tooltip/types";
-import { NavThemeType } from "../widgets/Menu/theme";
+import { NavTheme } from "../widgets/Menu/types";
 import { ModalTheme } from "../widgets/Modal/types";
 import { Breakpoints, Colors, MediaQueries, Radii, Shadows, Spacing, ZIndices } from "./types";
 
@@ -14,7 +14,7 @@ export interface RuntzTheme {
   alert: AlertTheme;
   colors: Colors;
   card: CardTheme;
-  nav: NavThemeType;
+  nav: NavTheme;
   modal: ModalTheme;
   runtzToggle: RuntzToggleTheme;
   radio: RadioTheme;
