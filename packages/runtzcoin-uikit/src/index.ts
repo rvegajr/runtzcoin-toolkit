@@ -44,6 +44,7 @@ export * from "./hooks";
 export * from "./widgets/Modal";
 export * from "./widgets/Menu";
 export * from "./widgets/WalletModal";
+export * from "./widgets/Toast";
 
 // Theme
 export { default as ResetCSS } from "./ResetCSS";
