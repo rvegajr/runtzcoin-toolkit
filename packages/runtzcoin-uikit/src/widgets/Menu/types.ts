@@ -1,4 +1,4 @@
-
+import { ConnectorNames } from "../WalletModal";
 export interface LangType {
   code: string;
   language: string;
@@ -53,5 +53,5 @@ export interface NavProps extends PanelProps {
   account?: string;
   profile?: Profile;
   logout: () => void;
-  login: () => void;
+  login: (connectorID: ConnectorNames) => void;
 }

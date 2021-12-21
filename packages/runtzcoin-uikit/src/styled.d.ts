@@ -3,5 +3,7 @@ import { RuntzTheme } from "./theme";
 
 declare module "styled-components" {
   /* eslint-disable @typescript-eslint/no-empty-interface */
-  export interface DefaultTheme extends RuntzTheme {}
+  export interface DefaultTheme extends RuntzTheme {
+    
+  }
 }
