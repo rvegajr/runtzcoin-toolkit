@@ -1,6 +1,6 @@
 {
   "name": "@runtzswap-libs/uikit",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "Set of UI components for runtz projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
