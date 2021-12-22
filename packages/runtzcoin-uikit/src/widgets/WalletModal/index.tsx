@@ -1,3 +1,4 @@
+/* eslint-disable import/no-cycle */
 export { default as useWalletModal } from "./useWalletModal";
 // eslint-disable-next-line import/named
 export { default as useAccountWalletModal } from "./useAccountWalletModal";
