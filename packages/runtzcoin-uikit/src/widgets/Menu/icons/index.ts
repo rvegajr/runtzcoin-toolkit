@@ -77,7 +77,7 @@ export { default as ListViewIcon } from "../../../components/Svg/Icons/ListView"
 export { default as LoginIcon } from "../../../components/Svg/Icons/Login";
 export { default as LogoRoundIcon } from "../../../components/Svg/Icons/LogoRound";
 export { default as LogoutIcon } from "../../../components/Svg/Icons/Logout";
-export { default as LogoWithTextIcon } from "../../../components/Svg/Icons/LogoWithText";
+export { default as LogoWithTextIcon } from "../../../components/Svg/Icons/LogoWithText.svg";
 export { default as MathWalletIcon } from "../../../components/Svg/Icons/MathWallet";
 export { default as MedalBronzeIcon } from "../../../components/Svg/Icons/MedalBronze";
 export { default as MedalGoldIcon } from "../../../components/Svg/Icons/MedalGold";

@@ -41,6 +41,7 @@ export type Gradients = {
 
 export type Colors = {
   primary: string;
+  scroll: string;
   primaryBright: string;
   primaryDark: string;
   secondary: string;
@@ -48,12 +49,12 @@ export type Colors = {
   success: string;
   failure: string;
   warning: string;
-  cardBorder: string;
   contrast: string;
   dropdown: string;
   dropdownDeep: string;
   invertedContrast: string;
   input: string;
+  input2: string;
   inputSecondary: string;
   background: string;
   backgroundDisabled: string;
@@ -62,11 +63,12 @@ export type Colors = {
   text: string;
   textDisabled: string;
   textSubtle: string;
-  disabled: string;
-
+  textSubtle2: string;
+  borderColor: string;
+  cardBorder:string;
+  disabled:string;
   // Gradients
   gradients: Gradients;
-
   // Additional colors
   binance: string;
   overlay: string;

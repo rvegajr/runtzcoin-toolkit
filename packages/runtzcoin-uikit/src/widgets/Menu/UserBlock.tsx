@@ -16,7 +16,7 @@ const UserBlock: React.FC<Props> = ({ login, logout, account }) => {
   return (
     <div>
       {account ? (
-        <Button
+        <Button          
           size="sm"
           variant="tertiary"
           onClick={() => {
